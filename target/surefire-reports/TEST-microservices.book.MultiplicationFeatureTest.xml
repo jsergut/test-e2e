@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="35" failures="0" name="microservices.book.MultiplicationFeatureTest" time="0.057" errors="0" skipped="30">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.boot.library.path" value="/home/rhel7/java/jdk-17.0.8/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/rhel7/proyectos/e2e-tests"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/rhel7/proyectos/e2e-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/rhel7/maven/apache-maven-3.6.2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/rhel7/maven/apache-maven-3.6.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.14.35-1902.3.2.el7uek.x86_64"/>
+    <property name="library.jansi.path" value="/home/rhel7/maven/apache-maven-3.6.2/lib/jansi-native"/>
+    <property name="user.home" value="/home/rhel7"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="rhel7"/>
+    <property name="java.class.path" value="/home/rhel7/maven/apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/home/rhel7/java/jdk-17.0.8"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/home/rhel7/maven/apache-maven-3.6.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="When the user john_snow sends 1 right attempts" time="0">
+    <skipped/>
+    <system-out>
+  Scenario: A user passes another one when gets higher score. &amp;#27;[90m# src/test/resources/leaderboard.feature:11&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 3 right attempts&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user peter sends 2 right attempts&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user john_snow is the number 1 on the leaderboard&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user peter sends 2 right attempts&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user peter is the number 1 on the leaderboard&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user john_snow is the number 2 on the leaderboard&amp;#27;[0m
+
+2 Scenarios (&amp;#27;[33m2 undefined&amp;#27;[0m)
+10 Steps (&amp;#27;[33m10 undefined&amp;#27;[0m)
+0m0,000s
+
+
+You can implement missing steps with the snippets below:
+
+@When(&quot;^the user john_snow sends (\\d+) right attempts$&quot;)
+public void the_user_john_snow_sends_right_attempts(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When(&quot;^the user peter sends (\\d+) right attempts$&quot;)
+public void the_user_peter_sends_right_attempts(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then(&quot;^the user john_snow is the number (\\d+) on the leaderboard$&quot;)
+public void the_user_john_snow_is_the_number_on_the_leaderboard(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then(&quot;^the user peter is the number (\\d+) on the leaderboard$&quot;)
+public void the_user_peter_is_the_number_on_the_leaderboard(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given(&quot;^the user john_snow sends (\\d+) right attempts$&quot;)
+public void the_user_john_snow_sends_right_attempts(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given(&quot;^the user peter sends (\\d+) right attempts$&quot;)
+public void the_user_peter_sends_right_attempts(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Given(&quot;^the user john_snow is the number (\\d+) on the leaderboard$&quot;)
+public void the_user_john_snow_is_the_number_on_the_leaderboard(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+Feature: Users are able to send their multiplication
+  attempts, which may be correct or not. When users
+  send a correct attempt, they get a response indicating
+  that the result is the right one. Also, they get points
+  and potentially some badges when they are right, so they
+  get motivation to come back and keep playing. Badges are
+  won for the first right attempt and when the user gets 100,
+  500 and 999 points respectively. If users send a wrong
+  attempt, they don&apos;t get any point or badge.
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="Then the user gets a response indicating the attempt is right" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="And the user gets 10 points for the attempt" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="And the user gets the FIRST_WON badge" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="Scenario: The user sends a first right attempt and gets a badge" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="Scenario: The user sends a first right attempt and gets a badge" time="0"/>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Given the user john_snow sends 1 right attempts" time="0">
+    <skipped/>
+    <system-out>
+  Scenario: The user sends a first right attempt and gets a badge &amp;#27;[90m# src/test/resources/multiplication.feature:11&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the FIRST_WON badge&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="And the user gets the FIRST_WON badge" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="When the user john_snow sends 1 right attempts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Then the user gets a response indicating the attempt is right" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="And the user gets 10 points for the attempt" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="And the user does not get any badge" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Scenario: The user sends a second right attempt and gets points only" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Scenario: The user sends a second right attempt and gets points only" time="0"/>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="Given the user john_snow sends 9 right attempts" time="0">
+    <skipped/>
+    <system-out>
+  Scenario: The user sends a second right attempt and gets points only &amp;#27;[90m# src/test/resources/multiplication.feature:17&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the FIRST_WON badge&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user does not get any badge&amp;#27;[0m
+
+  # Checks the Bronze, Silver and Gold badges
+  Scenario Outline: The user sends a right attempt after &lt;previous_attempts&gt; right attempts and then gets a badge &lt;badge_name&gt; &amp;#27;[90m# src/test/resources/multiplication.feature:26&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mthe user john_snow sends &lt;previous_attempts&gt; right attempts&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mthe user john_snow sends 1 right attempts&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe user gets a response indicating the attempt is right&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mthe user gets 10 points for the attempt&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mthe user gets the &lt;badge_name&gt; badge&amp;#27;[0m
+
+    Examples: 
+</system-out>
+  </testcase>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="When the user john_snow sends 1 right attempts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="Then the user gets a response indicating the attempt is right" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="And the user gets 10 points for the attempt" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="And the user gets the BRONZE_MULTIPLICATOR badge" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="| 9 | BRONZE_MULTIPLICATOR |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="| 9 | BRONZE_MULTIPLICATOR |" time="0"/>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="Given the user john_snow sends 49 right attempts" time="0.001">
+    <skipped/>
+    <system-out>
+  Scenario Outline: The user sends a right attempt after 9 right attempts and then gets a badge BRONZE_MULTIPLICATOR &amp;#27;[90m# src/test/resources/multiplication.feature:35&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 9 right attempts&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the BRONZE_MULTIPLICATOR badge&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="When the user john_snow sends 1 right attempts" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="Then the user gets a response indicating the attempt is right" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="And the user gets 10 points for the attempt" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="And the user gets the SILVER_MULTIPLICATOR badge" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="| 49 | SILVER_MULTIPLICATOR |" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="| 49 | SILVER_MULTIPLICATOR |" time="0.011"/>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="Given the user john_snow sends 99 right attempts" time="0">
+    <skipped/>
+    <system-out>
+  Scenario Outline: The user sends a right attempt after 49 right attempts and then gets a badge SILVER_MULTIPLICATOR &amp;#27;[90m# src/test/resources/multiplication.feature:36&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 49 right attempts&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the SILVER_MULTIPLICATOR badge&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="When the user john_snow sends 1 right attempts" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="Then the user gets a response indicating the attempt is right" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="And the user gets 10 points for the attempt" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="And the user gets the GOLD_MULTIPLICATOR badge" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="| 99 | GOLD_MULTIPLICATOR |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="| 99 | GOLD_MULTIPLICATOR |" time="0"/>
+</testsuite>
