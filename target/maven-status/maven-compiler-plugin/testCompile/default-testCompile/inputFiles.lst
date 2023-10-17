@@ -1,3 +1,13 @@
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/Stats.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/LeaderboardFeatureSteps.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/beans/AttemptResponse.java
 /home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/LeaderboardFeatureTest.java
 /home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/AppTest.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/beans/User.java
 /home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/MultiplicationFeatureTest.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/beans/LeaderBoardPosition.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/beans/Stats.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/http/ApplicationHttpUtils.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/MultiplicationFeatureSteps.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/beans/ScoreResponse.java
+/home/rhel7/proyectos/e2e-tests/src/test/java/microservices/book/testutils/MultiplicationApplication.java

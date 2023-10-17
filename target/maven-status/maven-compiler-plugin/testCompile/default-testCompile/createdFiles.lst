@@ -1,3 +1,13 @@
-microservices/book/LeaderboardFeatureTest.class
-microservices/book/AppTest.class
+microservices/book/testutils/beans/User.class
+microservices/book/testutils/beans/Stats.class
+microservices/book/testutils/http/ApplicationHttpUtils.class
+microservices/book/testutils/beans/LeaderBoardPosition.class
 microservices/book/MultiplicationFeatureTest.class
+microservices/book/MultiplicationFeatureSteps.class
+microservices/book/testutils/beans/AttemptResponse.class
+microservices/book/AppTest.class
+microservices/book/testutils/MultiplicationApplication.class
+microservices/book/LeaderboardFeatureSteps.class
+microservices/book/LeaderboardFeatureTest.class
+microservices/book/testutils/beans/ScoreResponse.class
+microservices/book/testutils/Stats.class

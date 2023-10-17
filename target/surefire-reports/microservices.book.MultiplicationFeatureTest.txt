@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: microservices.book.MultiplicationFeatureTest
 -------------------------------------------------------------------------------
-Tests run: 35, Failures: 0, Errors: 0, Skipped: 30, Time elapsed: 0.087 sec
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.151 s - in microservices.book.MultiplicationFeatureTest

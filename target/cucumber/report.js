@@ -6,6 +6,10 @@ formatter.feature({
   "id": "users-are-able-to-send-their-multiplication",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 93406877,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 11,
   "name": "The user sends a first right attempt and gets a badge",
@@ -34,21 +38,69 @@ formatter.step({
   "name": "the user gets the FIRST_WON badge",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "1",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 33741365,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "right",
+      "offset": 51
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1474854,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 14
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)"
+});
+formatter.result({
+  "duration": 2033093340,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "FIRST_WON",
+      "offset": 18
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)"
+});
+formatter.result({
+  "duration": 2052771506,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 104223675,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 17,
@@ -88,29 +140,93 @@ formatter.step({
   "name": "the user does not get any badge",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "1",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 45024569,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "FIRST_WON",
+      "offset": 18
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2018969432,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "1",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 24989950,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "right",
+      "offset": 51
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)"
+});
+formatter.result({
+  "duration": 145204,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 14
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)"
+});
+formatter.result({
+  "duration": 2020988400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MultiplicationFeatureSteps.the_user_does_not_get_any_badge()"
+});
+formatter.result({
+  "duration": 19194144,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -192,6 +308,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 62163165,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 35,
   "name": "The user sends a right attempt after 9 right attempts and then gets a badge BRONZE_MULTIPLICATOR",
@@ -231,25 +351,90 @@ formatter.step({
   ],
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "9",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 306100509,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "1",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 35231389,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "right",
+      "offset": 51
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 93153,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 14
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)"
+});
+formatter.result({
+  "duration": 2018982553,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BRONZE_MULTIPLICATOR",
+      "offset": 18
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)"
+});
+formatter.result({
+  "duration": 2019077213,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 116555901,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 36,
@@ -290,25 +475,90 @@ formatter.step({
   ],
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "49",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 28
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1917771280,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "1",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 26052940,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "right",
+      "offset": 51
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 230649,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 14
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)"
+});
+formatter.result({
+  "duration": 2015389101,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "SILVER_MULTIPLICATOR",
+      "offset": 18
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)"
+});
+formatter.result({
+  "duration": 2017578537,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 138225112,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 37,
@@ -349,24 +599,85 @@ formatter.step({
   ],
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "99",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 28
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2805568293,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "john_snow",
+      "offset": 9
+    },
+    {
+      "val": "1",
+      "offset": 25
+    },
+    {
+      "val": "right",
+      "offset": 27
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 34889092,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "right",
+      "offset": 51
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 195289,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 14
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)"
+});
+formatter.result({
+  "duration": 2014381527,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "GOLD_MULTIPLICATOR",
+      "offset": 18
+    }
+  ],
+  "location": "MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)"
+});
+formatter.result({
+  "duration": 2013783487,
+  "status": "passed"
 });
 });

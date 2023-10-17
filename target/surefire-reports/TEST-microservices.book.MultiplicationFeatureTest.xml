@@ -1,124 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="35" failures="0" name="microservices.book.MultiplicationFeatureTest" time="0.057" errors="0" skipped="30">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="microservices.book.MultiplicationFeatureTest" time="26.151" tests="25" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
-    <property name="sun.boot.library.path" value="/home/rhel7/java/jdk-17.0.8/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/rhel7/proyectos/e2e-tests"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/rhel7/proyectos/e2e-tests/target/test-classes:/home/rhel7/proyectos/e2e-tests/target/classes:/home/rhel7/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/rhel7/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/rhel7/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/rhel7/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/home/rhel7/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/home/rhel7/.m2/repository/org/apache/httpcomponents/fluent-hc/4.5.3/fluent-hc-4.5.3.jar:/home/rhel7/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/rhel7/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/rhel7/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/rhel7/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/rhel7/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/home/rhel7/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/rhel7/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/home/rhel7/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/rhel7/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/home/rhel7/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/rhel7/.m2/repository/org/junit/vintage/junit-vintage-engine/5.5.1/junit-vintage-engine-5.5.1.jar:/home/rhel7/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar:/home/rhel7/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar:/home/rhel7/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar:/home/rhel7/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/rhel7/proyectos/e2e-tests"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/rhel7/maven/apache-maven-3.6.2/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/home/rhel7/maven/apache-maven-3.6.2/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.14.35-1902.3.2.el7uek.x86_64"/>
-    <property name="library.jansi.path" value="/home/rhel7/maven/apache-maven-3.6.2/lib/jansi-native"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/rhel7/proyectos/e2e-tests/target/surefire/surefirebooter-20231017200959563_3.jar /home/rhel7/proyectos/e2e-tests/target/surefire 2023-10-17T20-09-59_420-jvmRun1 surefire-20231017200959563_1tmp surefire_0-20231017200959563_2tmp"/>
+    <property name="surefire.test.class.path" value="/home/rhel7/proyectos/e2e-tests/target/test-classes:/home/rhel7/proyectos/e2e-tests/target/classes:/home/rhel7/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/rhel7/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/rhel7/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/rhel7/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rhel7/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/home/rhel7/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/home/rhel7/.m2/repository/org/apache/httpcomponents/fluent-hc/4.5.3/fluent-hc-4.5.3.jar:/home/rhel7/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/rhel7/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/rhel7/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/rhel7/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/rhel7/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/home/rhel7/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/rhel7/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:/home/rhel7/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/rhel7/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/home/rhel7/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/rhel7/.m2/repository/org/junit/vintage/junit-vintage-engine/5.5.1/junit-vintage-engine-5.5.1.jar:/home/rhel7/.m2/repository/org/assertj/assertj-core/3.8.0/assertj-core-3.8.0.jar:/home/rhel7/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar:/home/rhel7/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9.jar:/home/rhel7/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/rhel7"/>
-    <property name="user.timezone" value="Europe/Madrid"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="rhel7"/>
-    <property name="java.class.path" value="/home/rhel7/maven/apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/home/rhel7/java/jdk-17.0.8"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.8"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="maven.home" value="/home/rhel7/maven/apache-maven-3.6.2"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre"/>
+    <property name="basedir" value="/home/rhel7/proyectos/e2e-tests"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2023-07-18"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/rhel7/proyectos/e2e-tests/target/surefire/surefirebooter-20231017200959563_3.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_232-b09"/>
+    <property name="user.name" value="rhel7"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.14.35-1902.3.2.el7uek.x86_64"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/rhel7/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2023.2.2"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="user.dir" value="/home/rhel7/proyectos/e2e-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="When the user john_snow sends 1 right attempts" time="0">
-    <skipped/>
-    <system-out>
-  Scenario: A user passes another one when gets higher score. &amp;#27;[90m# src/test/resources/leaderboard.feature:11&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 3 right attempts&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user peter sends 2 right attempts&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user john_snow is the number 1 on the leaderboard&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user peter sends 2 right attempts&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user peter is the number 1 on the leaderboard&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user john_snow is the number 2 on the leaderboard&amp;#27;[0m
-
-2 Scenarios (&amp;#27;[33m2 undefined&amp;#27;[0m)
-10 Steps (&amp;#27;[33m10 undefined&amp;#27;[0m)
-0m0,000s
-
-
-You can implement missing steps with the snippets below:
-
-@When(&quot;^the user john_snow sends (\\d+) right attempts$&quot;)
-public void the_user_john_snow_sends_right_attempts(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@When(&quot;^the user peter sends (\\d+) right attempts$&quot;)
-public void the_user_peter_sends_right_attempts(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Then(&quot;^the user john_snow is the number (\\d+) on the leaderboard$&quot;)
-public void the_user_john_snow_is_the_number_on_the_leaderboard(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Then(&quot;^the user peter is the number (\\d+) on the leaderboard$&quot;)
-public void the_user_peter_is_the_number_on_the_leaderboard(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Given(&quot;^the user john_snow sends (\\d+) right attempts$&quot;)
-public void the_user_john_snow_sends_right_attempts(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Given(&quot;^the user peter sends (\\d+) right attempts$&quot;)
-public void the_user_peter_sends_right_attempts(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Given(&quot;^the user john_snow is the number (\\d+) on the leaderboard$&quot;)
-public void the_user_john_snow_is_the_number_on_the_leaderboard(int arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-Feature: Users are able to send their multiplication
+  <testcase name="When the user john_snow sends 1 right attempts" classname="Scenario: The user sends a first right attempt and gets a badge" time="0.001">
+    <system-out><![CDATA[Feature: Users are able to send their multiplication
   attempts, which may be correct or not. When users
   send a correct attempt, they get a response indicating
   that the result is the right one. Also, they get points
@@ -126,141 +68,77 @@ Feature: Users are able to send their multiplication
   get motivation to come back and keep playing. Badges are
   won for the first right attempt and when the user gets 100,
   500 and 999 points respectively. If users send a wrong
-  attempt, they don&apos;t get any point or badge.
-</system-out>
+  attempt, they don't get any point or badge.
+]]></system-out>
   </testcase>
-  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="Then the user gets a response indicating the attempt is right" time="0">
-    <skipped/>
+  <testcase name="Then the user gets a response indicating the attempt is right" classname="Scenario: The user sends a first right attempt and gets a badge" time="0"/>
+  <testcase name="And the user gets 10 points for the attempt" classname="Scenario: The user sends a first right attempt and gets a badge" time="0.001"/>
+  <testcase name="And the user gets the FIRST_WON badge" classname="Scenario: The user sends a first right attempt and gets a badge" time="0.001"/>
+  <testcase name="Given the user john_snow sends 1 right attempts" classname="Scenario: The user sends a second right attempt and gets points only" time="0">
+    <system-out><![CDATA[
+  Scenario: The user sends a first right attempt and gets a badge &amp#27;[90m# src/test/resources/multiplication.feature:11&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user gets a response indicating the attempt is &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m points for the attempt&amp#27;[0m                   &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets the &amp#27;[0m&amp#27;[32m&amp#27;[1mFIRST_WON&amp#27;[0m&amp#27;[32m badge&amp#27;[0m                         &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)&amp#27;[0m
+]]></system-out>
   </testcase>
-  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="And the user gets 10 points for the attempt" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="And the user gets the FIRST_WON badge" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="Scenario: The user sends a first right attempt and gets a badge" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a first right attempt and gets a badge" name="Scenario: The user sends a first right attempt and gets a badge" time="0"/>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Given the user john_snow sends 1 right attempts" time="0">
-    <skipped/>
-    <system-out>
-  Scenario: The user sends a first right attempt and gets a badge &amp;#27;[90m# src/test/resources/multiplication.feature:11&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the FIRST_WON badge&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="And the user gets the FIRST_WON badge" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="When the user john_snow sends 1 right attempts" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Then the user gets a response indicating the attempt is right" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="And the user gets 10 points for the attempt" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="And the user does not get any badge" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Scenario: The user sends a second right attempt and gets points only" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: The user sends a second right attempt and gets points only" name="Scenario: The user sends a second right attempt and gets points only" time="0"/>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="Given the user john_snow sends 9 right attempts" time="0">
-    <skipped/>
-    <system-out>
-  Scenario: The user sends a second right attempt and gets points only &amp;#27;[90m# src/test/resources/multiplication.feature:17&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the FIRST_WON badge&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user does not get any badge&amp;#27;[0m
+  <testcase name="And the user gets the FIRST_WON badge" classname="Scenario: The user sends a second right attempt and gets points only" time="0"/>
+  <testcase name="When the user john_snow sends 1 right attempts" classname="Scenario: The user sends a second right attempt and gets points only" time="0.001"/>
+  <testcase name="Then the user gets a response indicating the attempt is right" classname="Scenario: The user sends a second right attempt and gets points only" time="0"/>
+  <testcase name="And the user gets 10 points for the attempt" classname="Scenario: The user sends a second right attempt and gets points only" time="0.001"/>
+  <testcase name="And the user does not get any badge" classname="Scenario: The user sends a second right attempt and gets points only" time="0.001"/>
+  <testcase name="Given the user john_snow sends 9 right attempts" classname="| 9 | BRONZE_MULTIPLICATOR |" time="0.001">
+    <system-out><![CDATA[
+  Scenario: The user sends a second right attempt and gets points only &amp#27;[90m# src/test/resources/multiplication.feature:17&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                    &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets the &amp#27;[0m&amp#27;[32m&amp#27;[1mFIRST_WON&amp#27;[0m&amp#27;[32m badge&amp#27;[0m                              &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                     &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user gets a response indicating the attempt is &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m      &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m points for the attempt&amp#27;[0m                        &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user does not get any badge&amp#27;[0m                                &amp#27;[90m# MultiplicationFeatureSteps.the_user_does_not_get_any_badge()&amp#27;[0m
 
   # Checks the Bronze, Silver and Gold badges
-  Scenario Outline: The user sends a right attempt after &lt;previous_attempts&gt; right attempts and then gets a badge &lt;badge_name&gt; &amp;#27;[90m# src/test/resources/multiplication.feature:26&amp;#27;[0m
-    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mthe user john_snow sends &lt;previous_attempts&gt; right attempts&amp;#27;[0m
-    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mthe user john_snow sends 1 right attempts&amp;#27;[0m
-    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe user gets a response indicating the attempt is right&amp;#27;[0m
-    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mthe user gets 10 points for the attempt&amp;#27;[0m
-    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mthe user gets the &lt;badge_name&gt; badge&amp;#27;[0m
+  Scenario Outline: The user sends a right attempt after <previous_attempts> right attempts and then gets a badge <badge_name> &amp#27;[90m# src/test/resources/multiplication.feature:26&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user john_snow sends <previous_attempts> right attempts&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user john_snow sends 1 right attempts&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user gets a response indicating the attempt is right&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user gets 10 points for the attempt&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user gets the <badge_name> badge&amp#27;[0m
 
     Examples: 
-</system-out>
+]]></system-out>
   </testcase>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="When the user john_snow sends 1 right attempts" time="0">
-    <skipped/>
+  <testcase name="When the user john_snow sends 1 right attempts" classname="| 9 | BRONZE_MULTIPLICATOR |" time="0"/>
+  <testcase name="Then the user gets a response indicating the attempt is right" classname="| 9 | BRONZE_MULTIPLICATOR |" time="0"/>
+  <testcase name="And the user gets 10 points for the attempt" classname="| 9 | BRONZE_MULTIPLICATOR |" time="0.001"/>
+  <testcase name="And the user gets the BRONZE_MULTIPLICATOR badge" classname="| 9 | BRONZE_MULTIPLICATOR |" time="0"/>
+  <testcase name="Given the user john_snow sends 49 right attempts" classname="| 49 | SILVER_MULTIPLICATOR |" time="0">
+    <system-out><![CDATA[
+  Scenario Outline: The user sends a right attempt after 9 right attempts and then gets a badge BRONZE_MULTIPLICATOR &amp#27;[90m# src/test/resources/multiplication.feature:35&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                                                                  &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                                                                   &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user gets a response indicating the attempt is &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m                                                    &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m points for the attempt&amp#27;[0m                                                                      &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets the &amp#27;[0m&amp#27;[32m&amp#27;[1mBRONZE_MULTIPLICATOR&amp#27;[0m&amp#27;[32m badge&amp#27;[0m                                                                 &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)&amp#27;[0m
+]]></system-out>
   </testcase>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="Then the user gets a response indicating the attempt is right" time="0">
-    <skipped/>
+  <testcase name="When the user john_snow sends 1 right attempts" classname="| 49 | SILVER_MULTIPLICATOR |" time="0.001"/>
+  <testcase name="Then the user gets a response indicating the attempt is right" classname="| 49 | SILVER_MULTIPLICATOR |" time="0.001"/>
+  <testcase name="And the user gets 10 points for the attempt" classname="| 49 | SILVER_MULTIPLICATOR |" time="0"/>
+  <testcase name="And the user gets the SILVER_MULTIPLICATOR badge" classname="| 49 | SILVER_MULTIPLICATOR |" time="0"/>
+  <testcase name="Given the user john_snow sends 99 right attempts" classname="| 99 | GOLD_MULTIPLICATOR |" time="0.001">
+    <system-out><![CDATA[
+  Scenario Outline: The user sends a right attempt after 49 right attempts and then gets a badge SILVER_MULTIPLICATOR &amp#27;[90m# src/test/resources/multiplication.feature:36&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m49&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                                                                  &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_snow&amp#27;[0m&amp#27;[32m sends &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m&amp#27;[32m attempts&amp#27;[0m                                                                    &amp#27;[90m# MultiplicationFeatureSteps.the_user_sends_attempts(String,int,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user gets a response indicating the attempt is &amp#27;[0m&amp#27;[32m&amp#27;[1mright&amp#27;[0m                                                     &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_a_response_indicating_the_attempt_is(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m points for the attempt&amp#27;[0m                                                                       &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_points_for_the_attempt(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user gets the &amp#27;[0m&amp#27;[32m&amp#27;[1mSILVER_MULTIPLICATOR&amp#27;[0m&amp#27;[32m badge&amp#27;[0m                                                                  &amp#27;[90m# MultiplicationFeatureSteps.the_user_gets_the_type_badge(String)&amp#27;[0m
+]]></system-out>
   </testcase>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="And the user gets 10 points for the attempt" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="And the user gets the BRONZE_MULTIPLICATOR badge" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="| 9 | BRONZE_MULTIPLICATOR |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 9 | BRONZE_MULTIPLICATOR |" name="| 9 | BRONZE_MULTIPLICATOR |" time="0"/>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="Given the user john_snow sends 49 right attempts" time="0.001">
-    <skipped/>
-    <system-out>
-  Scenario Outline: The user sends a right attempt after 9 right attempts and then gets a badge BRONZE_MULTIPLICATOR &amp;#27;[90m# src/test/resources/multiplication.feature:35&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 9 right attempts&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the BRONZE_MULTIPLICATOR badge&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="When the user john_snow sends 1 right attempts" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="Then the user gets a response indicating the attempt is right" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="And the user gets 10 points for the attempt" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="And the user gets the SILVER_MULTIPLICATOR badge" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="| 49 | SILVER_MULTIPLICATOR |" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 49 | SILVER_MULTIPLICATOR |" name="| 49 | SILVER_MULTIPLICATOR |" time="0.011"/>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="Given the user john_snow sends 99 right attempts" time="0">
-    <skipped/>
-    <system-out>
-  Scenario Outline: The user sends a right attempt after 49 right attempts and then gets a badge SILVER_MULTIPLICATOR &amp;#27;[90m# src/test/resources/multiplication.feature:36&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 49 right attempts&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user john_snow sends 1 right attempts&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe user gets a response indicating the attempt is right&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets 10 points for the attempt&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user gets the SILVER_MULTIPLICATOR badge&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="When the user john_snow sends 1 right attempts" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="Then the user gets a response indicating the attempt is right" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="And the user gets 10 points for the attempt" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="And the user gets the GOLD_MULTIPLICATOR badge" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="| 99 | GOLD_MULTIPLICATOR |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| 99 | GOLD_MULTIPLICATOR |" name="| 99 | GOLD_MULTIPLICATOR |" time="0"/>
+  <testcase name="When the user john_snow sends 1 right attempts" classname="| 99 | GOLD_MULTIPLICATOR |" time="0.001"/>
+  <testcase name="Then the user gets a response indicating the attempt is right" classname="| 99 | GOLD_MULTIPLICATOR |" time="0"/>
+  <testcase name="And the user gets 10 points for the attempt" classname="| 99 | GOLD_MULTIPLICATOR |" time="0.001"/>
+  <testcase name="And the user gets the GOLD_MULTIPLICATOR badge" classname="| 99 | GOLD_MULTIPLICATOR |" time="0"/>
 </testsuite>
