@@ -1,9 +1,10 @@
 package microservices.book;
 
-import cucumber.api.java.en.Then;
 import microservices.book.testutils.beans.LeaderBoardPosition;
 
 import java.util.List;
+
+import io.cucumber.java.en.Then;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

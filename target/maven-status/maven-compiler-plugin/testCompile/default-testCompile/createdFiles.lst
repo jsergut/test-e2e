@@ -10,4 +10,3 @@ microservices/book/testutils/MultiplicationApplication.class
 microservices/book/LeaderboardFeatureSteps.class
 microservices/book/LeaderboardFeatureTest.class
 microservices/book/testutils/beans/ScoreResponse.class
-microservices/book/testutils/Stats.class

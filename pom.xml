@@ -1,43 +1,42 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>microservices.book</groupId>
-    <artifactId>e2e-tests</artifactId>
-    <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>e2e-tests</name>
-    <description>end to End Tests Microservices</description>
-    <properties>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>microservices.book</groupId>
+  <artifactId>e2e-tests</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>e2e-tests</name>
+  <description>end to End Tests  Microservices</description>
+  <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <jackson-version>2.8.9</jackson-version>
-        <cucumber-version>1.2.5</cucumber-version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <cucumber-version>7.14.0</cucumber-version>
+        <maven.compiler.source>17</maven.compiler.source>
+    	<maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <url>http://maven.apache.org</url>
-    <dependencies>
-        <dependency>
-            <groupId>info.cukes</groupId>
+  <dependencies>
+	  	<dependency>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
             <version>${cucumber-version}</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
+     	<dependency>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber-version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber-version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
             <version>${cucumber-version}</version>
             <scope>test</scope>
@@ -49,17 +48,17 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.5.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <version>5.5.1</version>
-            <scope>test</scope>
-        </dependency>
+		        <groupId>org.junit.jupiter</groupId>
+		        <artifactId>junit-jupiter-engine</artifactId>
+		        <version>5.5.1</version>
+		        <scope>test</scope>
+		</dependency>
+		<dependency>
+		        <groupId>org.junit.vintage</groupId>
+		        <artifactId>junit-vintage-engine</artifactId>
+		        <version>5.5.1</version>
+		        <scope>test</scope>
+	    </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
@@ -85,5 +84,5 @@
             <version>${jackson-version}</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-</project>
+  </dependencies>
+  </project>
